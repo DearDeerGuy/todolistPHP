@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    background-color: darksalmon;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+}
+.menubtn {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    height: 100%;
+    background-color: darksalmon;
+    border: none;
+    padding: 10px;
+}
+.menubtn:hover, .submitbtn:hover {
+    cursor: pointer;
+    background-color: indianred;
+}
+.submitbtn, input, select {
+    padding: 8px;
+    border: none;
+}
+.outerdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 50px;
+}
+.authform, .addform {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: center;
+    background-color: darksalmon;
+}
+
+.authform label, .addform label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+.categoryitems {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    background-color: darksalmon;
+}
+.categoryitems input {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.columndiv {
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.errormessage {
+    color: red;
+}
+
+.allowwrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.todolist {
+    display: flex;
+    flex-direction: column;
+    /*overflow: hidden;*/
+    padding: 30px;
+    background-color: darksalmon;
+    /*background: linear-gradient(darksalmon, 80%, rgba(255, 255, 255, 0.0));*/
+}
+.todolist .todoitem {
+    margin-top: 10px;
+}
+.addlistform, .todolist {
+    width: 250px;
+    margin: 30px;
+}
+.todoitem {
+    border: none;
+    background: none;
+    text-align: left;
+    padding: 5px;
+}
+.todoitem:hover {
+    cursor: pointer;
+    background-color: indianred;
+}
+
+
+.additem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.additem input, .additem textarea, .additem select {
+    padding: 3px;
+}
+.additem textarea {
+    min-width: 100%;
+    max-width: 100%;
+}
+.addform h1 {
+    margin-bottom: 20px;
+}
+.littleitem {
+    display: flex;
+    flex-direction: column;
+    background-color: salmon;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+.hovering:hover {
+    background-color: indianred;
+    cursor: pointer;
+}
+.completed {
+    background-color: lightgray;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.deletebtn {
+    display: flex;
+    justify-content: flex-end;
+}
+.smallitem {
+    display: flex;
+    background-color: black;
+    width: 100%;
+}
